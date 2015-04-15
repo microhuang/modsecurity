@@ -33,5 +33,13 @@ Include owasp-modsecurity-crs-master/base_rules/*.conf                     #基�
 ```
   
 
+```
+contos65x64+nginx1.6.3+modsecurity2.9+php-fpm5.5.23，ajax请求出错：
+Message: Audit log: Failed to lock global mutex: Permission denied
+注释modsecurity.conf：
+#SecRequestBodyAccess On
+```
+
+
 
 https://github.com/SpiderLabs/owasp-modsecurity-crs

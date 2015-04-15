@@ -29,6 +29,7 @@ unzip master.zip
 Include owasp-modsecurity-crs-master/modsecurity_crs_10_setup.conf         #主要规则
 Include owasp-modsecurity-crs-master/base_rules/*.conf                     #基本规则
 #Include owasp-modsecurity-crs-master/optional_rules/*.conf                #可选规则
+#Include owasp-modsecurity-crs-master/experimental_rules/*.conf            #实验规则
 ```
   
 

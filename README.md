@@ -39,7 +39,13 @@ Message: Audit log: Failed to lock global mutex: Permission denied
 注释modsecurity.conf：
 #SecRequestBodyAccess On
 ```
+```
+    if (uscf == NULL) {
+        ngx_log_error(NGX_LOG_ALERT, r->connection->log, 0,
+                      "no upstream configuration");
+```
 
 
 
 https://github.com/SpiderLabs/owasp-modsecurity-crs
+
